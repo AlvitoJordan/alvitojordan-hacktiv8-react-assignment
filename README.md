@@ -1,9 +1,13 @@
-# Getting Started with Create React App
+# Assignment 2 : Display Currency Rates
+Create React App for Project Currency Rate
 
+Install node module first using :
+### `npm install`
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
