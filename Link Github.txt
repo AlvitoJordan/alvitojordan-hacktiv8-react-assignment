@@ -1,0 +1,6 @@
+Link Github : https://github.com/AlvitoJordan/alvitojordan-hacktiv8-react-assignment.git
+
+Akses branch assignment3 
+
+Gunakan command dibawah ini untuk clone assignmen 2:
+git clone -b assignment3 https://github.com/AlvitoJordan/alvitojordan-hacktiv8-react-assignment.git
