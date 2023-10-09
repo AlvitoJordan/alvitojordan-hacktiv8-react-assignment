@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Online Calculator - Alvito Jordan</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" value='0' disabled>
+        <button onclick="allClearInput()">AC</button>
+        <button onclick="clearEntryInput()">CE</button>
+        <button onclick="operatorInput('/')">/</button>
+        <button onclick="operatorInput('*')">*</button>
+        <button onclick="numberInput('7')">7</button>
+        <button onclick="numberInput('8')">8</button>
+        <button onclick="numberInput('9')">9</button>
+        <button onclick="operatorInput('-')">-</button>
+        <button onclick="numberInput('4')">4</button>
+        <button onclick="numberInput('5')">5</button>
+        <button onclick="numberInput('6')">6</button>
+        <button onclick="operatorInput('+')">+</button>
+        <button onclick="numberInput('1')">1</button>
+        <button onclick="numberInput('2')">2</button>
+        <button onclick="numberInput('3')">3</button>
+        <button id="equal" onclick="result()">=</button>
+        <button id="zero" onclick="numberInput('0')">0</button>
+        <button onclick="decimalInput()">.</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
