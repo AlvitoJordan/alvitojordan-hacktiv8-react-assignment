@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    display: flex;
+    position: fixed;
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color :#c05c3c;
+    height: 100vh;
+    width: 250px;
+}
+
+.sidebar img{
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    border: 5px solid rgba(255,255,255,0.5);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.sidebar nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar nav ul li a{
+    color:rgba(255,255,255,0.5)
+}
+
+.sidebar nav ul li a:hover{
+    color : white;
+}
+
+.sidebar nav ul li a.active{
+    color:white;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    margin-left: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display : flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+.header h2{
+    padding: 40px 0;
+    font-size: 35px;
+}
+
+.header span{
+    color:red;
+}
+
+.header p{
+    font-weight: bold;
+}
+
+.footer a{
+    padding-right:10px ;
+}
+  
+.footer a svg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background-color: black; 
+    padding: 10px;
+    color: white;
+}
+
+.footer a svg:hover{
+    background-color: #c05c3c;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p{
+    color:red;
+}
+
+.subtitle, main p{
+    color:gray;
+}
+
+.list ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    line-height: 30px;
+    color: grey;
+}
+
+.list svg{
+    color : green;
+    padding-right: 10px;
+}
+
+.award-list svg{
+    color: gold;
+    padding-right: 10px;
+    padding-left: 50px;
+}
+
+.award-list ul{
+    line-height: 30px;
+    color: gray;
+}
+
+.notFound{
+    position: relative;
+}
+
+button{
+    padding: 10px;
+    color: white ;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #c05c3c;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgba(192,92,60 0.5);
+}
